@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu Condensed"
+}
+
+nav {
+    font-size: 20px;
+}
+
+.auth-nav {
+    margin-right: 100px;
+}
+
+nav .brand {
+    max-width: 80px;
+    margin-left: 100px;
+}
+
+brand {
+    max-width: 150px;
+}
