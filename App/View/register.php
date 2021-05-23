@@ -17,7 +17,7 @@
         <section>
             <div class="container mt-5">
                 <div class="d-flex justify-content-center">
-                    <a href="home.php"><img class="mt-5 mb-3" src="https://github.com/patrikrufino/livre/blob/main/Resources/Img/livre_logo.png?raw=true" alt="Logo Livre" style="max-width: 170px;"></a>
+                    <a href="/livre/"><img class="mt-5 mb-3" src="https://github.com/patrikrufino/livre/blob/main/Public/Img/livre_logo.png?raw=true" alt="Logo Livre" style="max-width: 170px;"></a>
                 </div>
                 <div class="mt-5 d-flex justify-content-center">
                     <h4>Registre-se</h4>
@@ -49,7 +49,7 @@
                             </form>
                             <hr class="mt-4">
                             <div class="col-12">
-                                <p class="text-center mb-0">Já tem uma conta? <a href="/App/Viewgin.php">Faça o login.</a></p>
+                                <p class="text-center mb-0">Já tem uma conta? <a href="App/View/login.php">Faça o login.</a></p>
                             </div>
                         </div>
                     </div>
