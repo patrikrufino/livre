@@ -1,6 +1,5 @@
 <?php
 
-
 class Usuario
 {
     private $id_usuario;
@@ -91,7 +90,7 @@ class Usuario
 
     public function inserirBD()
     {
-        require_once './ConexaoBD.php';
+        require_once '../Config/ConexaoBD.php';
 
         $con = newConexaoBD();
         $conn = $con->conectar();
@@ -120,7 +119,7 @@ class Usuario
     // Metodo carregar usuário.
     public function carregarUsuario($email)
     {
-        require_once './ConexaoBD.php';
+        require_once '../Config/ConexaoBD.php';
 
         $con = new ConexaoBD();
         $conn = $con->conectar();
@@ -146,10 +145,10 @@ class Usuario
         }
     }
 
-    // Metodo atualizar banco de dados.
+    // Método atualizar banco de dados.
     public function atualizarBD()
     {
-        require_once './ConexaoBD.php';
+        require_once '../Config/ConexaoBD.php';
 
         $con = new ConexaoBD();
         $conn = $con->conectar();
