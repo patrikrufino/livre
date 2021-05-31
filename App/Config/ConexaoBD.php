@@ -11,7 +11,7 @@ class ConexaoBD
 
     private $serverName = "localhost";
     private $userName = "root";
-    private $password = "root";
+    private $password = "";
     private $dbname = "livre";
 
     public function conectar()
