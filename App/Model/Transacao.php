@@ -1,4 +1,4 @@
-c<?php
+<?php
 class Transacao
 {
     private $idtransacao;
