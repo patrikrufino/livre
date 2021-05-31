@@ -37,6 +37,7 @@ CREATE TABLE `livros` (
   `isbn` varchar(100) NOT NULL,
   `paginas` int(10) NOT NULL,
   `descricao` text NOT NULL,
+  `valor` float NOT NULL,
   `id_usuario` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
